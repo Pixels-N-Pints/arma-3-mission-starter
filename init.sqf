@@ -6,6 +6,7 @@ if (isServer) then {
 	//
 };
 
-if (!isServer) then {
+if (!isDedicated) then {
 	// #include "briefing.hpp";	
 };
+
