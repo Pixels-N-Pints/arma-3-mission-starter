@@ -1,10 +1,11 @@
+_p = execVM "params.sqf";
+waitUntil {scriptDone _p};
+
 // To be executed by server once
-if (isDedicated) then {
-	// Set respawn tickets, can be overrided in mission params
-	_respawnTickets = ["RespawnTickets", -10] call BIS_fnc_getParamValue;
-	[missionNamespace, _respawnTickets] call BIS_fnc_respawnTickets;
+if (isServer) then {
+	//
 };
 
-if (!isDedicated) then {
+if (!isServer) then {
 	// #include "briefing.hpp";	
 };
