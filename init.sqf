@@ -6,7 +6,8 @@ if (isServer) then {
 	//
 };
 
-if (!isDedicated) then {
-	// #include "briefing.hpp";	
+// Run for players and player hosted server
+if (!isDedicated || (isServer && hasInterface)) then {
+	#include "briefing.hpp";	
 };
 
