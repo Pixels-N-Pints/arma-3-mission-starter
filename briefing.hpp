@@ -12,6 +12,26 @@ player createDiaryRecord
 [
 	"Diary",
 	[
+		"Execution",
+		"<br/><br/>
+		Some solid mission plan that doesn't sound terrible
+		<br/><br/>"
+	]
+];
+
+player createDiaryRecord
+[
+	"Diary",
+	[
+		"Mission",
+		"Mission description"
+	]
+];
+
+player createDiaryRecord
+[
+	"Diary",
+	[
 		"Situation",
 		"<br/><br/>
 		<font face='PuristaBold'><font size=18>Situation Report</font></font><br/><br/>
@@ -26,26 +46,4 @@ player createDiaryRecord
 	]
 ];
 
-player createDiaryRecord
-[
-	"Diary",
-	[
-		"Mission",
-		"Start at the <marker name='TOUR_mkr_start'>Par-e Siah FOB</marker><br/><br/>
-		Capture the King of Spades, also known as Chemical Ali within the city of <marker name='MARKER_VARIABLE'>Kushkat</marker><br/><br/>
-		<br/>"
-	]
-];
 
-
-
-player createDiaryRecord
-[
-	"Diary",
-	[
-		"Execution",
-		"<br/><br/>
-		Some solid mission plan that doesn't sound terrible
-		<br/><br/>"
-	]
-];
