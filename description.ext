@@ -1,0 +1,32 @@
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 16; 
+};
+
+author = "YOUR_NAME";
+onLoadName = "OPERATION_NAME"; 
+onLoadMission = "OPERATION_DESCRIPTION";
+briefingName = "OPERATION_NAME";
+onLoadMissionTime = true;
+overviewPicture = "";
+// loadScreen = "img\loading.paa"; //Loading screen picture, should be 1024x512 pixels in .paa format.
+disabledAI = true; 
+enableDebugConsole[] = { "76561198020422687", "76561197963335199", "76561198038699900" }; 
+
+respawn = 3;
+respawnDelay = 30;
+respawnDialog = 0;
+respawnTemplates[] = {"Tickets"};
+
+
+class Params
+{
+	class RespawnTickets
+	{
+		title = "Respawn Tickets";
+		values[] = { 0, 5, 10, 15, 20, 30 };
+		default = 10;
+	}
+};
